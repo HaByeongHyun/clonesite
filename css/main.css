@@ -319,6 +319,15 @@ button {
   margin-bottom: 0;
 }
 
-.footer__copyright {
-  background-color: var(--color-orange);
+.footer {
+  display: flex;
+  padding: 12px 60px;
+}
+
+.bar {
+  height: 12px;
+  width: 1px;
+  background-color: var(--color-white);
+  display: inline-block;
+  margin: 0 12px;
 }
