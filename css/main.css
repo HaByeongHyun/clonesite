@@ -264,15 +264,61 @@ button {
 .icons__top,
 .icons__bottom {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: space-between;
+  width: 600px;
 }
 
 .icons__top i,
 .icons__bottom i {
   font-size: var(--font-large);
+  margin-bottom: 12px;
 }
 
 .icons__space {
   height: 36px;
+}
+
+/* Footer */
+.footer__container {
+  color: var(--color-white);
+}
+
+.testimonials__slide {
+  height: 200px;
+  margin-top: 48px;
+  background: url('/images/bgImg (5).jpg') center/cover no-repeat;
+}
+
+.footer__information {
+  background-color: var(--color-dark-grey);
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 24px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo__btn-top {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.logo__btn-top,
+.logo__btn-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contact h4 {
+  margin-bottom: 0;
+}
+
+.footer__copyright {
+  background-color: var(--color-orange);
 }
