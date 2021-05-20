@@ -1,0 +1,278 @@
+/* Global */
+
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-light-white: #eeeeee;
+  --color-dark-white: #bdbdbd;
+  --color-pink: #fe918d;
+  --color-dark-pink: #ff6863;
+  --color-dark-grey: #4d4d4d;
+  --color-grey: #616161;
+  --color-light-grey: #7c7979;
+  --color-blue: #73aace;
+  --color-yellow: #fff7d1;
+  --color-orange: #feb546;
+  --color-black: #000000;
+
+  /* Font size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+  /* Size */
+  --size-border-radius: 4px;
+
+  /* Annimation */
+  --annimation-duration: 300ms;
+}
+
+body {
+  margin: 0 auto;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: var(--color-white);
+  outline: none;
+}
+
+.container {
+  text-align: center;
+  color: var(--color-white);
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 16px 0;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__menu {
+  display: flex;
+}
+
+.navbar__menu-item {
+  margin: 0 36px;
+}
+
+.navbar__search {
+  display: flex;
+  align-items: center;
+}
+
+/* Main Slide */
+.slide__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: url('/images/slideImg (1).jpg') center/cover no-repeat;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.slide__description {
+  padding-right: 500px;
+}
+
+/* Main Business Area */
+.business__title {
+  color: var(--color-black);
+}
+
+.business__title::after {
+  content: '';
+  display: block;
+  width: 140px;
+  border-bottom: 2px solid green;
+  margin: 1px auto;
+}
+
+.business__areas-container {
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+  justify-content: space-around;
+}
+
+.business__areas-left {
+  width: 550px;
+}
+
+.business__products {
+  display: flex;
+  background: url('/images/bgImg (1).jpg') center/cover no-repeat;
+}
+
+.business__products-bg,
+.business__construction-bg {
+  background-color: green;
+  opacity: 0.6;
+}
+
+.business__products-left,
+.business__construction-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 170px;
+}
+
+.business__products-left h2 {
+  margin-bottom: 0;
+}
+
+.business__products-left p {
+  margin: 0;
+}
+
+.read__more {
+  border: 3px solid var(--color-white);
+  width: 100px;
+  height: 30px;
+  margin: 16px auto;
+  color: var(--color-white);
+}
+
+.space {
+  height: 20px;
+}
+
+.business__construction {
+  display: flex;
+  background: url('/images/bgImg (2).jpg') center/cover no-repeat;
+}
+
+.business__construction-left h2 {
+  margin-bottom: 0;
+}
+
+.business__construction-left p {
+  margin: 0;
+}
+
+.business__areas-right {
+  width: 550px;
+  background: url('/images/bgImg (3).jpg') center/cover no-repeat;
+}
+
+.business__customer {
+  display: flex;
+  height: 100%;
+}
+
+.business__customer-bg {
+  background-color: green;
+  opacity: 0.6;
+  display: flex;
+}
+
+.business__customer-right {
+  text-align: left;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.business__customer-right h2 {
+  margin-bottom: 0;
+}
+
+.business__customer-right p {
+  margin: 0;
+}
+
+.customer__contact {
+  border: 3px solid var(--color-white);
+  width: 100px;
+  height: 30px;
+  margin: 16px auto;
+  color: var(--color-white);
+}
+
+/* Patent Technology */
+.technology__title {
+  color: var(--color-black);
+  margin-top: 48px;
+}
+
+.technology__title::after {
+  content: '';
+  display: block;
+  width: 175px;
+  border-bottom: 2px solid green;
+  margin: 1px auto;
+}
+
+.technology {
+  background: url('/images/bgImg (4).jpg') center/cover no-repeat;
+}
+
+.technology__description-detail {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  background-color: green;
+  opacity: 0.6;
+}
+
+.technology__description-detail p {
+  margin-bottom: 0;
+}
+
+.technology__description-iconsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px auto;
+}
+
+.icons__top,
+.icons__bottom {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.icons__top i,
+.icons__bottom i {
+  font-size: var(--font-large);
+}
+
+.icons__space {
+  height: 36px;
+}

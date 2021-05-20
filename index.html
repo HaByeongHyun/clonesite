@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/main.css" />
     <script src="js/main.js"></script>
     <title>Clone Site</title>
   </head>
@@ -36,102 +37,121 @@
     </nav>
     <!-- Main Slide -->
     <section class="slide__container">
-      <div class="slide__container-description">
-        <p class="description">
+      <span><</span>
+      <div class="slide__description">
+        <h2>
           사람과 자연이 함께하는 <br />
           건강한 주거 환경을 만들겠습니다.
-        </p>
+        </h2>
         <button class="main__contact">CONTACT</button>
-        <div class="main__slide-dot"></div>
       </div>
+      <span>></span>
     </section>
+
     <!-- Main Business Area -->
-    <h3>BUSINESS AREAS</h3>
-    <section class="business__areas-container">
-      <section class="business__areas-left">
-        <div class="business__products">
-          <div class="business__products-left">
-            <h2>생산제품</h2>
-            <p class="products__sub">Products</p>
-            <button class="read__more">READ MORE</button>
+    <div class="container">
+      <h4 class="business__title">BUSINESS AREAS</h4>
+      <section class="business__areas-container">
+        <section class="business__areas-left">
+          <div class="business__products">
+            <div class="business__products-bg">
+              <div class="business__products-left">
+                <h2>생산제품</h2>
+                <p>Products</p>
+                <button class="read__more">READ MORE</button>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="business__construction">
+          <div class="space"></div>
           <div class="business__construction">
-            <div class="business__construction-left">
-              <h2>시공실적</h2>
-              <p class="construction__sub">ConsTrucTion</p>
-              <button class="read__more">READ MORE</button>
+            <div class="business__construction">
+              <div class="business__construction-bg">
+                <div class="business__construction-left">
+                  <h2>시공실적</h2>
+                  <p class="construction__sub">ConsTrucTion</p>
+                  <button class="read__more">READ MORE</button>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="business__areas-right">
-        <div class="business__customer">
-          <div class="business__customer-left">
-            <h2>고객센터</h2>
-            <p class="customer__sub">Customer Service</p>
-            <button class="customer__contact">CONTACT</button>
+        </section>
+        <section class="business__areas-right">
+          <div class="business__customer">
+            <div class="business__customer-bg">
+              <div class="business__customer-right">
+                <h2>고객센터</h2>
+                <p>Customer Service</p>
+                <button class="customer__contact">CONTACT</button>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
       </section>
-    </section>
+    </div>
     <!-- Main Technology -->
-    <h3>PATENT TECHNOLOGY</h3>
-    <section class="technology">
-      <div class="technology__description">
-        <h1>특허공법</h1>
-        <p class="technology__description-content">
-          안전한 주거환경과 자연을 보호하는 새로운 친환경 건축자재 개발에 주력한
-          결과, 독창적이고 우수한 친환경 제품을 생산하여 전국에 공급, 시공하고
-          있습니다.
-        </p>
-        <div class="technology__description-iconsContainer">
-          <div class="skills">
-            <div class="icons">
-              <i class="fas fa-home"></i>
-            </div>
-            <span>단열 보온 복합 방수</span>
-          </div>
-          <div class="skills">
-            <div class="icons">
-              <i class="fas fa-home"></i>
-            </div>
-            <span>천공시트 복합 방수</span>
-          </div>
-          <div class="skills">
-            <div class="icons">
-              <i class="fas fa-home"></i>
-            </div>
-            <span
-              >콘크리트 구조물의 <br />
-              외부 균열 보수</span
-            >
-          </div>
-          <div class="skills">
-            <div class="icons">
-              <i class="fas fa-home"></i>
-            </div>
-            <span>황토에코 코트 실내 도장</span>
-          </div>
-          <div class="skills">
-            <div class="icons">
-              <i class="fas fa-home"></i>
-            </div>
-            <span
-              >황토 방수페인트 <br />
-              방수 및 도장</span
-            >
-          </div>
-          <div class="skills">
-            <div class="icons">
-              <i class="fas fa-home"></i>
-            </div>
-            <span>단열보온 및 결로 방지</span>
+    <div class="container">
+      <h4 class="technology__title">PATENT TECHNOLOGY</h4>
+      <section class="technology">
+        <div class="technology__description-detail">
+          <h1>특허공법</h1>
+          <p>
+            안전한 주거환경과 자연을 보호하는 새로운 친환경 건축자재 개발에<br />
+            주력한 결과, 독창적이고 우수한 친환경 제품을 생산하여 전국에 공급,
+            시공하고 있습니다.
+          </p>
+          <div class="technology__description-iconsContainer">
+            <section class="icons__top">
+              <div class="skills">
+                <div class="icons">
+                  <i class="fas fa-home"></i>
+                </div>
+                <span>단열 보온 복합 방수</span>
+              </div>
+              <div class="skills">
+                <div class="icons">
+                  <i class="fas fa-home"></i>
+                </div>
+                <span>천공시트 복합 방수</span>
+              </div>
+              <div class="skills">
+                <div class="icons">
+                  <i class="fas fa-home"></i>
+                </div>
+                <span
+                  >콘크리트 구조물의 <br />
+                  외부 균열 보수</span
+                >
+              </div>
+            </section>
+            <div class="icons__space"></div>
+            <section class="icons__bottom">
+              <div class="skills">
+                <div class="icons">
+                  <i class="fas fa-home"></i>
+                </div>
+                <span>황토에코 코트 실내 도장</span>
+              </div>
+              <div class="skills">
+                <div class="icons">
+                  <i class="fas fa-home"></i>
+                </div>
+                <span
+                  >황토 방수페인트 <br />
+                  방수 및 도장</span
+                >
+              </div>
+              <div class="skills">
+                <div class="icons">
+                  <i class="fas fa-home"></i>
+                </div>
+                <span>단열보온 및 결로 방지</span>
+              </div>
+            </section>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
+
     <!-- Footer -->
     <footer class="footer__container">
       <div class="testimonials__slide"></div>
