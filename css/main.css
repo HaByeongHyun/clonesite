@@ -37,6 +37,7 @@
 body {
   margin: 0 auto;
   cursor: default;
+  width: 1280px;
 }
 
 a {
@@ -66,6 +67,7 @@ button {
 
 /* Navbar */
 #navbar {
+  background-color: var(--color-white);
   display: flex;
   justify-content: space-around;
   margin: 16px 0;
@@ -84,9 +86,23 @@ button {
   margin: 0 36px;
 }
 
+.navbar__menu-item:hover {
+  cursor: pointer;
+  color: #1eac07;
+  font-weight: var(--weight-bold);
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
 .navbar__search {
   display: flex;
   align-items: center;
+}
+
+.underline {
+  height: 1px;
+  width: 100%;
+  background-color: #d5d4c9;
 }
 
 /* Main Slide */
@@ -125,7 +141,7 @@ button {
 }
 
 .business__areas-left {
-  width: 550px;
+  width: 500px;
 }
 
 .business__products {
@@ -183,7 +199,7 @@ button {
 }
 
 .business__areas-right {
-  width: 550px;
+  width: 500px;
   background: url('/images/bgImg (3).jpg') center/cover no-repeat;
 }
 
@@ -347,4 +363,27 @@ button {
   background-color: var(--color-white);
   display: inline-block;
   margin: 0 12px;
+}
+
+/* Banner */
+
+.container__wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.banner__container {
+  background: url('/images/bgImg (5).jpg') center/cover no-repeat;
+  margin: 24px auto;
+  display: flex;
+  width: 80%;
+  height: 150px;
+  text-align: center;
+}
+
+.banner {
+  margin: 24px auto;
+  margin-top: 0;
+  padding-top: 12px;
+  color: var(--color-white);
 }
