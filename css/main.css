@@ -289,13 +289,23 @@ button {
   background: url('/images/bgImg (5).jpg') center/cover no-repeat;
 }
 
+.company__name {
+  margin-top: 0;
+}
+
+.footer__contact h2 {
+  margin: 0;
+}
+
 .footer__information {
-  background-color: var(--color-dark-grey);
+  background-color: #2b2b2a;
+  margin: 0 auto;
+  padding: 0 150px;
 }
 
 .footer__logo {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 24px;
 }
 
@@ -321,7 +331,14 @@ button {
 
 .footer {
   display: flex;
-  padding: 12px 60px;
+  justify-content: space-between;
+  background-color: #201f1e;
+  padding: 24px 150px;
+}
+
+.footer__left {
+  display: flex;
+  align-items: center;
 }
 
 .bar {
