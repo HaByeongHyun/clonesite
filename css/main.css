@@ -70,7 +70,10 @@ button {
   background-color: var(--color-white);
   display: flex;
   justify-content: space-around;
-  margin: 16px 0;
+  position: fixed;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .navbar__logo {
@@ -103,6 +106,8 @@ button {
   height: 1px;
   width: 100%;
   background-color: #d5d4c9;
+  position: absolute;
+  top: 70px;
 }
 
 /* Main Slide */
@@ -373,10 +378,21 @@ button {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-top: 60px;
 }
 
 .products__left {
   margin-top: 100px;
+}
+
+.side__menu-btn li {
+  margin: 12px 0;
+}
+
+.side__menu-bar {
+  height: 1px;
+  width: 180px;
+  background-color: var(--color-light-grey);
 }
 
 .products__right {
@@ -467,4 +483,16 @@ button {
 .products__char,
 .products__use {
   font-size: var(--font-small);
+}
+
+.products__summary {
+  margin-bottom: 48px;
+}
+
+.products__char {
+  margin-bottom: 48px;
+}
+
+.products__use {
+  margin-bottom: 48px;
 }
