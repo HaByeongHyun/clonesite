@@ -108,7 +108,7 @@ button {
 
 .underline {
   height: 1px;
-  width: 100%;
+  width: 1280px;
   background-color: #d5d4c9;
   position: absolute;
   top: 70px;
@@ -513,3 +513,22 @@ button {
 }
 
 /* Contact */
+.contact__container {
+  width: 1280px;
+}
+
+.contact__banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  margin: 36px auto;
+  background: url('/images/bgImg (1).jpg') center/cover no-repeat;
+}
+
+.contact__banner h2 {
+  margin-top: 0;
+}
