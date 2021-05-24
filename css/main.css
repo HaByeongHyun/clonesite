@@ -560,3 +560,8 @@ button {
   justify-content: space-between;
   margin-bottom: 36px;
 }
+
+.contact__submit {
+  display: flex;
+  justify-content: right;
+}
