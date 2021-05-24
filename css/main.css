@@ -532,3 +532,31 @@ button {
 .contact__banner h2 {
   margin-top: 0;
 }
+
+.contact__header {
+  margin-left: 394px;
+  color: green;
+}
+
+.contact__header-bar {
+  height: 2px;
+  width: 80px;
+  background-color: green;
+}
+
+.contact__form-container {
+  width: 100%;
+}
+
+.contact__form-main {
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto;
+  width: 55%;
+}
+
+.contact__contents {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
