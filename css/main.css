@@ -22,6 +22,8 @@
   --font-small: 14px;
   --font-micro: 10px;
 
+  /* Font style */
+
   /* Font weight */
   --weight-bold: 700;
   --weight-semi-bold: 600;
@@ -38,6 +40,7 @@ body {
   margin: 0 auto;
   cursor: default;
   width: 1280px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 a {
@@ -70,7 +73,8 @@ button {
   background-color: var(--color-white);
   display: flex;
   justify-content: space-around;
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -91,7 +95,7 @@ button {
 
 .navbar__menu-item:hover {
   cursor: pointer;
-  color: #1eac07;
+  color: rgba(49, 187, 9, 0.6);
   font-weight: var(--weight-bold);
   text-decoration: underline;
   text-underline-position: under;
@@ -157,8 +161,7 @@ button {
 
 .business__products-bg,
 .business__construction-bg {
-  background-color: green;
-  opacity: 0.6;
+  background-color: rgba(49, 187, 9, 0.6);
 }
 
 .business__products-left,
@@ -215,8 +218,7 @@ button {
 }
 
 .business__customer-bg {
-  background-color: green;
-  opacity: 0.6;
+  background-color: rgba(49, 187, 9, 0.6);
   display: flex;
 }
 
@@ -267,8 +269,7 @@ button {
   display: flex;
   width: 60%;
   flex-direction: column;
-  background-color: green;
-  opacity: 0.6;
+  background-color: rgba(49, 187, 9, 0.6);
 }
 
 .technology__description-detail p {
@@ -379,7 +380,6 @@ button {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-top: 60px;
 }
 
 .products__left {
@@ -392,7 +392,7 @@ button {
 }
 
 .side__menu-btn li:hover {
-  color: green;
+  color: rgba(49, 187, 9, 0.6);
   font-weight: var(--weight-bold);
 }
 
@@ -511,3 +511,5 @@ button {
 .products__use {
   margin-bottom: 48px;
 }
+
+/* Contact */
