@@ -14,8 +14,13 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <script src="js/main.js" defer></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/prac.js" defer></script>
+    <script src="js/footer-slider.js" defer></script>
     <title>Clone Site</title>
   </head>
   <body>
@@ -37,25 +42,41 @@
     </nav>
     <!-- Main Slide -->
     <section class="slide__container">
-      <div class="slide__wrapper">
-        <span class="slider__prev"><</span>
-        <div class="slide__description">
-          <h1>
-            사람과 자연이 함께하는 <br />
-            건강한 주거 환경을 만들겠습니다.
-          </h1>
-          <button class="main__contact">CONTACT</button>
+      <!-- Swiper -->
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="main__slider-container">
+              <img src="images/slideImg (1).jpg" alt="bgimg" />
+              <p>
+                사람과 자연이 함께하는<br />건강한 주거 환경을 만들겠습니다.<br />
+                <button class="slider__contact">CONTACT</button>
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bgImg (2).jpg" alt="bgimg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bgImg (3).jpg" alt="bgimg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bgImg (4).jpg" alt="bgimg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bgImg (1).jpg" alt="bgimg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bgImg (2).jpg" alt="bgimg" />
+          </div>
         </div>
-        <span class="slider__next">></span>
-      </div>
-
-      <div class="slide__dot">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-        <span class="dot" onclick="currentSlide(6)"></span>
+        <div class="swiper-button-next">
+          <p>></p>
+        </div>
+        <div class="swiper-button-prev">
+          <p><</p>
+        </div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
 
@@ -166,15 +187,42 @@
     <!-- Footer -->
     <div class="footer__container">
       <div class="testimonials__slide-container">
-        <p><</p>
         <div class="testimonials__slide">
-          <div><img src="images/bgImg (1).jpg" alt="" /></div>
-          <div><img src="images/bgImg (1).jpg" alt="" /></div>
-          <div><img src="images/bgImg (1).jpg" alt="" /></div>
-          <div><img src="images/bgImg (1).jpg" alt="" /></div>
-          <div><img src="images/bgImg (1).jpg" alt="" /></div>
+          <div class="swiper-container swiper-footer">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/bgImg (1).jpg" alt="img1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/bgImg (2).jpg" alt="img1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/bgImg (3).jpg" alt="img1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/bgImg (4).jpg" alt="img1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/bgImg (5).jpg" alt="img1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/bgImg (1).jpg" alt="img1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/bgImg (2).jpg" alt="img1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/bgImg (3).jpg" alt="img1" />
+              </div>
+            </div>
+          </div>
+          <div class="footer-swiper-button-next">
+            <p>></p>
+          </div>
+          <div class="footer-swiper-button-prev">
+            <p><</p>
+          </div>
         </div>
-        <p>></p>
       </div>
       <div class="footer__information">
         <div class="footer__logo">
