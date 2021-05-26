@@ -129,7 +129,7 @@ button {
 }
 
 .underline {
-  height: 1px;
+  height: 2px;
   width: 1280px;
   background-color: #d5d4c9;
   position: absolute;
@@ -215,6 +215,7 @@ button {
   font-weight: var(--weight-semi-bold);
   display: inline-block;
   color: var(--color-white);
+  text-shadow: 2px 2px 2px rgb(136, 133, 133);
 }
 
 .slider__contact {
@@ -223,7 +224,7 @@ button {
   font-size: var(--font-regular);
   margin-top: 40px;
   width: 100px;
-  height: 40px;
+  height: 36px;
   border: 2px solid var(--color-white);
 }
 
@@ -276,13 +277,13 @@ button {
 
 /* Main Business Area */
 .business__title {
-  color: var(--color-black);
+  color: var(--color-dark-grey);
 }
 
 .business__title::after {
   content: '';
   display: block;
-  width: 140px;
+  width: 175px;
   border-bottom: 2px solid #109c06;
   margin: 1px auto;
 }
@@ -305,7 +306,7 @@ button {
 
 .business__products-bg,
 .business__construction-bg {
-  background-color: rgba(49, 187, 9, 0.6);
+  background-color: rgba(30, 132, 73, 0.5);
 }
 
 .business__products-left,
@@ -362,7 +363,7 @@ button {
 }
 
 .business__customer-bg {
-  background-color: rgba(49, 187, 9, 0.6);
+  background-color: rgba(30, 132, 73, 0.5);
   display: flex;
 }
 
@@ -393,14 +394,14 @@ button {
 
 /* Patent Technology */
 .technology__title {
-  color: var(--color-black);
+  color: var(--color-dark-grey);
   margin-top: 48px;
 }
 
 .technology__title::after {
   content: '';
   display: block;
-  width: 175px;
+  width: 230px;
   border-bottom: 2px solid #109c06;
   margin: 1px auto;
 }
@@ -416,7 +417,11 @@ button {
   height: 100%;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(49, 187, 9, 0.6);
+  background-color: rgba(30, 132, 73, 0.5);
+}
+
+.technology__description-detail h1 {
+  font-size: var(--font-large);
 }
 
 .technology__description-detail p {
@@ -526,7 +531,7 @@ button {
 }
 
 .footer__information {
-  background-color: #2b2b2a;
+  background-color: #444646;
   margin: 0 auto;
   padding: 0 150px;
 }
@@ -534,7 +539,8 @@ button {
 .footer__logo {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
+  padding-top: 36px;
+  padding-bottom: 24px;
 }
 
 .logo {
@@ -560,7 +566,7 @@ button {
 .footer {
   display: flex;
   justify-content: space-between;
-  background-color: #201f1e;
+  background-color: #242423;
   padding: 24px 150px;
 }
 
@@ -791,7 +797,7 @@ button {
   height: 150px;
   text-align: center;
   margin: 36px auto;
-  background: url('/images/bgImg (1).jpg') center/cover no-repeat;
+  background: url('/images/bgImg (3).jpg') center/cover no-repeat;
   color: var(--color-white);
 }
 
@@ -841,6 +847,7 @@ button {
   display: flex;
   justify-content: space-between;
   margin-bottom: 36px;
+  color: #444646;
 }
 
 .contact__btn-container {
