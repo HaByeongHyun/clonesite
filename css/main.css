@@ -1,3 +1,6 @@
+@charset "utf-8";
+@import 'reset.css';
+
 /* Global */
 
 :root {
@@ -39,13 +42,14 @@
 html,
 body {
   position: relative;
+  width: 1478px;
+  height: 3717px;
+  margin: 0 auto;
 }
 
 body {
   font-size: 14px;
-  width: 1280px;
   font-family: 'Noto Sans KR', sans-serif;
-  margin: 0 auto;
 }
 
 a {
@@ -82,8 +86,7 @@ button {
   position: sticky;
   top: 0;
   width: 100%;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  height: 82px;
 }
 
 .navbar__logo {
@@ -96,7 +99,7 @@ button {
 }
 
 .navbar__menu-item {
-  margin: 0 36px;
+  margin: auto 36px;
   position: relative;
 }
 
