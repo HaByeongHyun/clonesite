@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <!-- Swiper JS -->
+    <script src="js/main.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/prac.js" defer></script>
     <script src="js/footer-slider.js" defer></script>
@@ -28,7 +29,9 @@
     <!-- Navbar -->
     <nav id="navbar" class="sticky-header">
       <div class="navbar__logo">
-        <img src="images/logo (1).jpg" alt="main logo" class="logo" />
+        <a href="index.html"
+          ><img src="images/logo (1).jpg" alt="main logo" class="logo"
+        /></a>
       </div>
       <ul class="navbar__menu">
         <li class="navbar__menu-item">기업소개</li>
@@ -96,10 +99,10 @@
         <h2 class="business__title">BUSINESS AREAS</h2>
         <div class="business__title-underline"></div>
       </div>
-      <section class="business__areas-container">
+      <section class="business__areas">
         <section class="business__areas-left">
           <div class="business__areas-products">
-            <div class="business__areas-products-bg">
+            <div class="business__areas-products-bgcolor">
               <div class="business__areas-detail-left">
                 <h2>생산제품</h2>
                 <p>PRODUCTS</p>
@@ -108,24 +111,22 @@
             </div>
           </div>
           <div class="space"></div>
-          <div class="business__construction">
-            <div class="business__construction">
-              <div class="business__construction-bg">
-                <div class="business__areas-detail-left">
-                  <h2>시공실적</h2>
-                  <p class="construction__sub">CONSTRUCTION</p>
-                  <button class="read__more">READ MORE</button>
-                </div>
+          <div class="business__areas-construction">
+            <div class="business__construction-bgcolor">
+              <div class="business__areas-detail-left">
+                <h2>시공실적</h2>
+                <p>CONSTRUCTION</p>
+                <button class="read__more">READ MORE</button>
               </div>
             </div>
           </div>
         </section>
         <section class="business__areas-right">
-          <div class="business__customer">
-            <div class="business__customer-bg">
-              <div class="business__customer-right">
+          <div class="business__areas-customer">
+            <div class="business__customer-bgcolor">
+              <div class="business__customer-detail-right">
                 <h2>고객센터</h2>
-                <p>Customer Service</p>
+                <p>CUSTOMER SERVICE</p>
                 <button class="customer__contact">CONTACT</button>
               </div>
             </div>
@@ -136,15 +137,17 @@
     <!-- Main Technology -->
     <div class="container">
       <h2 class="technology__title">PATENT TECHNOLOGY</h2>
+      <div class="technology__title-underline"></div>
       <section class="technology">
-        <div class="technology__description-detail">
+        <div class="technology__detail">
           <h1>특허공법</h1>
           <p>
-            안전한 주거환경과 자연을 보호하는 새로운 친환경 건축자재 개발에<br />
-            주력한 결과, 독창적이고 우수한 친환경 제품을 생산하여 전국에 공급,
-            시공하고 있습니다.
+            안전한 주거환경과 자연을 보호하는 새로운 친환경 건축자재 개발에
+            주력한 끝에,<br />
+            독창적이고 우수한 친환경 제품을 생산하여 전국에 공급, 시공하고
+            있습니다.
           </p>
-          <div class="technology__description-iconsContainer">
+          <div class="technology__iconsContainer">
             <section class="icons__top">
               <div class="skills">
                 <div class="icons">
@@ -199,41 +202,44 @@
 
     <!-- Footer -->
     <div class="footer__container">
-      <div class="testimonials__slide-container">
-        <div class="testimonials__slide">
-          <div class="swiper-container swiper-footer">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="images/bgImg (1).jpg" alt="img1" />
-              </div>
-              <div class="swiper-slide">
-                <img src="images/bgImg (2).jpg" alt="img1" />
-              </div>
-              <div class="swiper-slide">
-                <img src="images/bgImg (3).jpg" alt="img1" />
-              </div>
-              <div class="swiper-slide">
-                <img src="images/bgImg (4).jpg" alt="img1" />
-              </div>
-              <div class="swiper-slide">
-                <img src="images/bgImg (5).jpg" alt="img1" />
-              </div>
-              <div class="swiper-slide">
-                <img src="images/bgImg (1).jpg" alt="img1" />
-              </div>
-              <div class="swiper-slide">
-                <img src="images/bgImg (2).jpg" alt="img1" />
-              </div>
-              <div class="swiper-slide">
-                <img src="images/bgImg (3).jpg" alt="img1" />
+      <div class="testimonials__slide-overlay">
+        <div class="testimonials__slide-container">
+          <div class="testimonials__slide">
+            <div class="testimonials__slide-left">
+              <p>
+                고객의 가치를 최우선으로<br />
+                생각하는 기업, <br />
+                신뢰와 믿음으로 앞서가겠습니다.
+              </p>
+            </div>
+            <div class="swiper-container swiper-footer">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="images/bgImg (1).jpg" alt="img1" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/bgImg (2).jpg" alt="img1" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/bgImg (3).jpg" alt="img1" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/bgImg (4).jpg" alt="img1" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/bgImg (5).jpg" alt="img1" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/bgImg (1).jpg" alt="img1" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/bgImg (2).jpg" alt="img1" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/bgImg (3).jpg" alt="img1" />
+                </div>
               </div>
             </div>
-          </div>
-          <div class="footer-swiper-button-next">
-            <p>></p>
-          </div>
-          <div class="footer-swiper-button-prev">
-            <p><</p>
           </div>
         </div>
       </div>
@@ -263,20 +269,21 @@
           <div class="footer__contact">
             <h4>고객센터</h4>
             <h2>063-834-7322</h2>
-            <button class="customer__contact">CONTACT</button>
+            <button class="footer__contact-btn">CONTACT</button>
           </div>
         </div>
       </div>
-      <div class="footer">
-        <div class="footer__left">
+      <div class="fnb">
+        <div class="fnb__btn">
           <a href="#">홈</a>
           <div class="bar"></div>
           <a href="#">개인정보취급방침</a>
           <div class="bar"></div>
           <a href="#">이용약관</a>
         </div>
-        <div class="footer__copyright">
-          <span>COPYRIGHT (C) DOWON CORPORATION. ALL RIGHTS RESERVED</span>
+        <div class="fnb__copyright">
+          COPYRIGHT (C) <a href="#">DOWON GREEN INDUSTRY Co.,Ltd</a> ALL RIGHTS
+          RESERVED
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 let footerSwiper = new Swiper('.swiper-footer', {
-  slidesPerView: 5,
-  spaceBetween: 30,
+  slidesPerView: 4,
+  spaceBetween: 40,
   slidesPerGroup: 1,
   loop: true,
   loopFillGroupWithBlank: true,
