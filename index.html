@@ -10,8 +10,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <!-- Link Swiper's CSS -->
@@ -25,7 +26,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav id="navbar">
+    <nav id="navbar" class="sticky-header">
       <div class="navbar__logo">
         <img src="images/logo (1).jpg" alt="main logo" class="logo" />
       </div>
@@ -46,8 +47,19 @@
           <div class="swiper-slide">
             <div class="main__slider-container">
               <img src="images/slideImg (1).jpg" alt="bgimg" />
+              <div class="main__slider-text-container">
+                <div class="main__slider-text-upr">
+                  사람과 자연이 함께 공존하는
+                </div>
+                <div class="main__slider-text-lwr">
+                  건강한 주거 환경을 만들겠습니다.
+                </div>
+                <button class="slider__contact">CONTACT</button>
+              </div>
+
               <p>
-                사람과 자연이 함께하는<br />건강한 주거 환경을 만들겠습니다.<br />
+                사람과 자연이 함께 공존하는<br />건강한 주거 환경을
+                만들겠습니다.<br />
                 <button class="slider__contact">CONTACT</button>
               </p>
             </div>
@@ -80,14 +92,17 @@
 
     <!-- Main Business Area -->
     <div class="container">
-      <h2 class="business__title">BUSINESS AREAS</h2>
+      <div class="business__title-container">
+        <h2 class="business__title">BUSINESS AREAS</h2>
+        <div class="business__title-underline"></div>
+      </div>
       <section class="business__areas-container">
         <section class="business__areas-left">
-          <div class="business__products">
-            <div class="business__products-bg">
-              <div class="business__products-left">
+          <div class="business__areas-products">
+            <div class="business__areas-products-bg">
+              <div class="business__areas-detail-left">
                 <h2>생산제품</h2>
-                <p>Products</p>
+                <p>PRODUCTS</p>
                 <button class="read__more">READ MORE</button>
               </div>
             </div>
@@ -96,9 +111,9 @@
           <div class="business__construction">
             <div class="business__construction">
               <div class="business__construction-bg">
-                <div class="business__construction-left">
+                <div class="business__areas-detail-left">
                   <h2>시공실적</h2>
-                  <p class="construction__sub">ConsTrucTion</p>
+                  <p class="construction__sub">CONSTRUCTION</p>
                   <button class="read__more">READ MORE</button>
                 </div>
               </div>
