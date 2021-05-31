@@ -672,6 +672,16 @@ button {
   font-size: 12px;
 }
 
+.fnb__copyright {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 12px;
+}
+
+.fnb a {
+  font-size: 12px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
 .fnb a,
 .fnb__copyright {
   color: #dedede;
