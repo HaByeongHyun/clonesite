@@ -11,20 +11,22 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/contact.css" />
     <script src="js/main.js"></script>
-    <title>contact</title>
+    <title>문의상담 - 도원그린산업</title>
   </head>
   <body>
     <!-- Navbar -->
-    <nav id="navbar">
+    <nav id="navbar" class="sticky-header">
       <div class="navbar__logo">
-        <img src="images/logo (1).jpg" alt="main logo" class="logo" />
+        <a href="index.html"
+          ><img src="images/logo (1).jpg" alt="main logo" class="logo"
+        /></a>
       </div>
       <ul class="navbar__menu">
         <li class="navbar__menu-item">기업소개</li>
@@ -32,18 +34,19 @@
         <li class="navbar__menu-item">특허공법</li>
         <li class="navbar__menu-item">시공실적</li>
         <li class="navbar__menu-item">상담문의</li>
+        <li class="navbar__menu-item"><i class="fas fa-search"></i></li>
       </ul>
-      <div class="navbar__search">
-        <i class="fas fa-search"></i>
-      </div>
     </nav>
-    <div class="underline"></div>
 
     <!-- Contact banner -->
     <div class="contact__container">
-      <div class="contact__banner">
-        <h1>상담문의</h1>
-        <span>사람과 자연이 함께하는 건강한 주거환경을 만들겠습니다.</span>
+      <div class="contact__banner-overlay">
+        <div class="contact__banner">
+          <div class="contact__banner-title">
+            <h1>문의상담</h1>
+          </div>
+          <span>사람과 자연이 함께하는 건강한 주거환경을 만들겠습니다.</span>
+        </div>
       </div>
       <div class="contact__form-container">
         <div class="contact__form">
@@ -108,10 +111,6 @@
 
     <!-- Footer -->
     <div class="footer__container">
-      <div class="testimonials__slide">
-        <p><</p>
-        <p>></p>
-      </div>
       <div class="footer__information">
         <div class="footer__logo">
           <div class="logo">
@@ -138,20 +137,23 @@
           <div class="footer__contact">
             <h4>고객센터</h4>
             <h2>063-834-7322</h2>
-            <button class="customer__contact">CONTACT</button>
+            <button class="footer__contact-btn">CONTACT</button>
           </div>
         </div>
       </div>
-      <div class="footer">
-        <div class="footer__left">
-          <a href="#">홈</a>
-          <div class="bar"></div>
-          <a href="#">개인정보취급방침</a>
-          <div class="bar"></div>
-          <a href="#">이용약관</a>
-        </div>
-        <div class="footer__copyright">
-          <span>COPYRIGHT (C) DOWON CORPORATION. ALL RIGHTS RESERVED</span>
+      <div class="fnb__container">
+        <div class="fnb">
+          <div class="fnb__btn">
+            <a href="#">홈</a>
+            <div class="bar"></div>
+            <a href="#">개인정보취급방침</a>
+            <div class="bar"></div>
+            <a href="#">이용약관</a>
+          </div>
+          <div class="fnb__copyright">
+            COPYRIGHT (C) <a href="#">DOWON GREEN INDUSTRY Co.,Ltd</a> ALL
+            RIGHTS RESERVED
+          </div>
         </div>
       </div>
     </div>
