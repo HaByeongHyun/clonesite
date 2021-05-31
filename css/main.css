@@ -42,7 +42,6 @@
 html,
 body {
   position: relative;
-  width: 1478px;
   margin: 0 auto;
 }
 
@@ -359,7 +358,7 @@ button {
   width: 100px;
   font-size: 24px;
   font-weight: var(--weight-bold);
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .business__areas-detail-left p {
@@ -376,6 +375,8 @@ button {
   margin: 16px auto;
   margin-bottom: 0%;
   color: var(--color-white);
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 12px;
 }
 
 .space {
@@ -413,7 +414,7 @@ button {
   width: 140px;
   font-size: 24px;
   font-weight: var(--weight-bold);
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .business__customer-detail-right p {
@@ -430,6 +431,8 @@ button {
   margin: 16px auto;
   margin-bottom: 0;
   color: var(--color-white);
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 12px;
 }
 
 /* Patent Technology */
@@ -598,12 +601,13 @@ button {
 .footer__information {
   background-color: #242424;
   margin: 0 auto;
-  padding: 0 150px;
 }
 
 .footer__logo {
   display: flex;
   justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
   padding-top: 36px;
   padding-bottom: 36px;
 }
@@ -641,10 +645,11 @@ button {
 }
 
 .footer__contact-btn {
-  border: 1px solid var(--color-white);
-  width: 120px;
-  height: 30px;
+  border: 2px solid var(--color-white);
+  width: 105px;
+  height: 33px;
   margin: 16px auto;
+  margin-left: 0;
   margin-bottom: 0;
   color: var(--color-white);
 }
@@ -653,11 +658,17 @@ button {
   margin-bottom: 0;
 }
 
+.fnb__container {
+  background-color: #1b1b1b;
+}
+
 .fnb {
   display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 1140px;
+  height: 50px;
   justify-content: space-between;
-  background-color: #1b1b1b;
-  padding: 24px 150px;
   font-size: 12px;
 }
 
@@ -683,23 +694,29 @@ button {
   margin: 0 12px;
 }
 
-/* Banner */
+/* Banner
 .products__wrapper {
   width: 100%;
   height: 100%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .products__left {
   margin-top: 100px;
+  width: 254px;
+}
+
+.products__left-title {
+  margin: 12px auto;
 }
 
 .products__left h1 {
   font-weight: var(--weight-bold);
-  font-size: var(--font-medium);
+  font-size: var(--font-regular);
+  text-align: center;
   color: #4d4d4d;
 }
 
@@ -736,25 +753,28 @@ button {
 }
 
 .side__menu-bar {
-  height: 1px;
-  width: 180px;
-  background-color: var(--color-light-grey);
+  height: 2px;
+  width: 100%;
+  background-color: #dedede;
 }
 
 .products__right {
-  width: 1000px;
+  width: 1100px;
 }
 
 .container__wrapper {
   width: 100%;
+  background: url('/images/bgImg (6).jpg') center/cover no-repeat;
 }
 
 .banner__container {
-  background: url('/images/bgImg (6).jpg') center/cover no-repeat;
-  margin: 24px auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  margin-bottom: 100px;
   display: flex;
+  align-items: center;
   width: 100%;
-  height: 200px;
+  height: 226px;
   text-align: center;
 }
 
@@ -762,6 +782,18 @@ button {
   margin: 24px auto;
   padding-top: 12px;
   color: var(--color-white);
+}
+
+.bannner__title {
+  margin-bottom: 12px;
+}
+
+.banner h1 {
+  font-size: 36px;
+}
+
+.banner span {
+  font-size: 18px;
 }
 
 .products__container {
@@ -881,7 +913,7 @@ button {
 
 .products__use {
   margin-bottom: 100px;
-}
+} */
 
 /* Contact */
 .contact__container {
