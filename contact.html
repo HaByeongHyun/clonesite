@@ -57,27 +57,34 @@
           </div>
           <section class="contact__form-main">
             <div class="contact__contents">
-              <p>성함</p>
-              <input type="text" id="contact__input" placeholder="ex) 홍길동" />
-            </div>
-            <div class="contact__contents">
-              <p>기업·단체명/직함</p>
+              <label for="contact__input-name">성함</label>
               <input
                 type="text"
-                id="contact__input"
+                class="contact__input"
+                id="contact__input-name"
+                placeholder="ex) 홍길동"
+              />
+            </div>
+            <div class="contact__contents">
+              <label for="contact__input-company">기업·단체명/직함</label>
+              <input
+                type="text"
+                class="contact__input"
+                id="contact__input-company"
                 placeholder="ex) 도원그린산업 / 기획부 부장"
               />
             </div>
             <div class="contact__contents">
-              <p>이메일</p>
+              <label for="contact__input-email">이메일</label>
               <input
                 type="text"
-                id="contact__input"
+                class="contact__input"
+                id="contact__input-email"
                 placeholder="ex) example@email.com"
               />
             </div>
             <div class="contact__contents contact__context">
-              <p>문의 내용</p>
+              <label for="contact">문의 내용</label>
               <textarea
                 name="contact"
                 id="contact"

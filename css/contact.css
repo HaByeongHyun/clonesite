@@ -89,6 +89,18 @@
   margin-bottom: 20px;
 }
 
+.contact__contents label {
+  margin-bottom: 8px;
+  color: #7a7a7a;
+  cursor: pointer;
+}
+
+.contact__contents label::after {
+  content: '*';
+  color: #40a150;
+  padding-left: 0.2em;
+}
+
 .contact__contents p {
   margin-bottom: 8px;
   font-size: 15px;
@@ -97,18 +109,28 @@
 }
 
 #contact,
-#contact__input {
+#contact__input-name,
+#contact__input-company,
+#contact__input-email {
   border: 1px solid #818a91;
   border-radius: 4px;
   min-height: 33px;
   vertical-align: middle;
 }
 
-#contact__input {
+#contact:focus,
+#contact__input-name:focus,
+#contact__input-company:focus,
+#contact__input-email:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #40a150;
+}
+
+.contact__input {
   padding: 6px 16px 6px 16px;
 }
 
-#contact__input::placeholder {
+.contact__input::placeholder {
   color: #7a7a7a;
   font-weight: 300;
   font-size: 16px;
