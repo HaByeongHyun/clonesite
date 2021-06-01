@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import 'reset.css';
+@import 'main.css';
 
 /* Contact */
 .contact__container {
@@ -19,7 +20,6 @@
   height: 226px;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 200px;
   background-color: rgba(0, 0, 0, 0.3);
   color: var(--color-white);
 }
@@ -35,6 +35,8 @@
 .contact__form-container {
   width: 1140px;
   margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 300px;
 }
 .contact__form {
   width: 684px;
@@ -46,6 +48,7 @@
   color: #109c06;
   font-size: 39px;
   font-weight: var(--weight-bold);
+  margin-bottom: 80px;
 }
 
 .contact__header-upr {
@@ -60,6 +63,7 @@
   height: 3px;
   width: 80px;
   background-color: #109c06;
+  margin-top: 20px;
 }
 
 .contact__form-main {
@@ -76,22 +80,79 @@
 
 .contact__contents {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   margin-bottom: 36px;
   color: #444646;
 }
 
+.contact__context {
+  margin-bottom: 20px;
+}
+
+.contact__contents p {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #7a7a7a;
+  cursor: pointer;
+}
+
+#contact,
+#contact__input {
+  border: 1px solid #818a91;
+  border-radius: 4px;
+  min-height: 33px;
+  vertical-align: middle;
+}
+
+#contact__input {
+  padding: 6px 16px 6px 16px;
+}
+
+#contact__input::placeholder {
+  color: #7a7a7a;
+  font-weight: 300;
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+#contact {
+  padding: 6px 16px 6px 16px;
+  height: 102px;
+}
+
+#contact::placeholder {
+  color: #7a7a7a;
+  font-weight: 300;
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.contact__check {
+  margin-bottom: 20px;
+}
+
+.contact__check label {
+  color: #7a7a7a;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.contact__check label a {
+  color: black;
+}
+
 .contact__btn-container {
+  width: 100%;
   display: flex;
   flex-direction: row-reverse;
 }
 
 .contact__submit {
-  font-size: var(--font-regular);
-  font-weight: var(--weight-semi-bold);
-  background-color: #109c06;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #40a150;
   color: var(--color-white);
-  width: 100px;
+  width: 100%;
   height: 45px;
 }
 

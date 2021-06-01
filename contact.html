@@ -58,49 +58,41 @@
           <section class="contact__form-main">
             <div class="contact__contents">
               <p>성함</p>
-              <textarea
-                name="contact"
-                id="contact"
-                cols="80"
-                rows="3"
-              ></textarea>
+              <input type="text" id="contact__input" placeholder="ex) 홍길동" />
             </div>
             <div class="contact__contents">
-              <p>휴대폰 번호</p>
-              <textarea
-                name="contact"
-                id="contact"
-                cols="80"
-                rows="3"
-              ></textarea>
+              <p>기업·단체명/직함</p>
+              <input
+                type="text"
+                id="contact__input"
+                placeholder="ex) 도원그린산업 / 기획부 부장"
+              />
             </div>
             <div class="contact__contents">
-              <p>E-MAIL</p>
-              <textarea
-                name="contact"
-                id="contact"
-                cols="80"
-                rows="3"
-              ></textarea>
+              <p>이메일</p>
+              <input
+                type="text"
+                id="contact__input"
+                placeholder="ex) example@email.com"
+              />
             </div>
-            <div class="contact__contents">
-              <p>문의 제목</p>
-              <textarea
-                name="contact"
-                id="contact"
-                cols="80"
-                rows="3"
-              ></textarea>
-            </div>
-            <div class="contact__contents">
+            <div class="contact__contents contact__context">
               <p>문의 내용</p>
               <textarea
                 name="contact"
                 id="contact"
                 cols="80"
-                rows="15"
+                rows="4"
+                placeholder="이곳에 문의 내용을 기입해주십시오."
               ></textarea>
             </div>
+            <span class="contact__check">
+              <input type="checkbox" id="contact__checkbox" />
+              <label for="contact__checkbox"
+                >도원그린산업 웹사이트의 <a href="#">개인정보 취급방침</a>을
+                읽었으며 이에 동의합니다.</label
+              >
+            </span>
             <div class="contact__btn-container">
               <button class="contact__submit">문의하기</button>
             </div>
