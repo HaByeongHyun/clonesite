@@ -104,6 +104,8 @@ button {
 .products__banner-title {
   margin-bottom: 12px;
   font-size: 36px;
+  text-shadow: 2px 2px 2px rgb(0 0 0 / 30%);
+  font-weight: var(--weight-bold);
 }
 .products__banner-overlay {
   width: 100%;
@@ -113,6 +115,7 @@ button {
 
 .products__banner-sub-title {
   font-size: 18px;
+  text-shadow: 2px 2px 2px rgb(0 0 0 / 30%);
 }
 
 .products__snb-container {
@@ -319,7 +322,7 @@ button {
   color: #40a150;
   font-size: 15px;
   font-weight: var(--weight-bold);
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 }
 
 .products__desc-contents p {

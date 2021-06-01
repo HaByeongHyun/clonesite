@@ -24,7 +24,7 @@
 
     <!-- Swiper JS -->
     <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/prac.js" defer></script>
+    <script src="js/main-slider.js" defer></script>
     <script src="js/footer-slider.js" defer></script>
 
     <!-- JS -->
@@ -41,11 +41,11 @@
         /></a>
       </div>
       <ul class="navbar__menu">
-        <li class="navbar__menu-item">기업소개</li>
-        <li class="navbar__menu-item">생산제품</li>
-        <li class="navbar__menu-item">특허공법</li>
-        <li class="navbar__menu-item">시공실적</li>
-        <li class="navbar__menu-item">상담문의</li>
+        <li class="navbar__menu-item navbar__list">기업소개</li>
+        <li class="navbar__menu-item navbar__list">생산제품</li>
+        <li class="navbar__menu-item navbar__list">특허공법</li>
+        <li class="navbar__menu-item navbar__list">시공실적</li>
+        <li class="navbar__menu-item navbar__list">상담문의</li>
         <li class="navbar__menu-item"><i class="fas fa-search"></i></li>
       </ul>
     </nav>
@@ -111,9 +111,13 @@
           <div class="business__areas-products">
             <div class="business__areas-products-bgcolor">
               <div class="business__areas-detail-left">
-                <h2>생산제품</h2>
-                <p>PRODUCTS</p>
-                <button class="read__more">READ MORE</button>
+                <div class="business__areas-container">
+                  <h2>생산제품</h2>
+                  <p>PRODUCTS</p>
+                  <div class="business__areas-btn-wrapper">
+                    <button class="read__more">READ MORE</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -121,9 +125,13 @@
           <div class="business__areas-construction">
             <div class="business__construction-bgcolor">
               <div class="business__areas-detail-left">
-                <h2>시공실적</h2>
-                <p>CONSTRUCTION</p>
-                <button class="read__more">READ MORE</button>
+                <div class="business__areas-container">
+                  <h2>시공실적</h2>
+                  <p>CONSTRUCTION</p>
+                  <div class="business__areas-btn-wrapper">
+                    <button class="read__more">READ MORE</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -132,9 +140,13 @@
           <div class="business__areas-customer">
             <div class="business__customer-bgcolor">
               <div class="business__customer-detail-right">
-                <h2>고객센터</h2>
-                <p>CUSTOMER SERVICE</p>
-                <button class="customer__contact">CONTACT</button>
+                <div class="business__areas-container">
+                  <h2>고객센터</h2>
+                  <p>CUSTOMER SERVICE</p>
+                  <div class="business__areas-btn-wrapper">
+                    <button class="customer__contact">CONTACT</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -158,19 +170,25 @@
             <section class="icons__top">
               <div class="skills">
                 <div class="icons">
-                  <i class="fas fa-home"></i>
+                  <a href="#">
+                    <i class="fas fa-home"></i>
+                  </a>
                 </div>
                 <span>단열 보온 복합 방수</span>
               </div>
               <div class="skills">
                 <div class="icons">
-                  <i class="fas fa-home"></i>
+                  <a href="#">
+                    <i class="fas fa-home"></i>
+                  </a>
                 </div>
                 <span>천공시트 복합 방수</span>
               </div>
               <div class="skills">
                 <div class="icons">
-                  <i class="fas fa-home"></i>
+                  <a href="#">
+                    <i class="fas fa-home"></i>
+                  </a>
                 </div>
                 <span
                   >콘크리트 구조물의 <br />
@@ -182,13 +200,17 @@
             <section class="icons__bottom">
               <div class="skills">
                 <div class="icons">
-                  <i class="fas fa-home"></i>
+                  <a href="#">
+                    <i class="fas fa-home"></i>
+                  </a>
                 </div>
                 <span>황토에코 코트 실내 도장</span>
               </div>
               <div class="skills">
                 <div class="icons">
-                  <i class="fas fa-home"></i>
+                  <a href="#">
+                    <i class="fas fa-home"></i>
+                  </a>
                 </div>
                 <span
                   >황토 방수페인트 <br />
@@ -197,7 +219,9 @@
               </div>
               <div class="skills">
                 <div class="icons">
-                  <i class="fas fa-home"></i>
+                  <a href="#">
+                    <i class="fas fa-home"></i>
+                  </a>
                 </div>
                 <span>단열보온 및 결로 방지</span>
               </div>
@@ -253,7 +277,9 @@
       <div class="footer__information">
         <div class="footer__logo">
           <div class="logo">
-            <img src="images/logo (2).png" alt="footer logo" />
+            <a href="index.html">
+              <img src="images/logo (2).png" alt="footer logo" />
+            </a>
             <div class="logo__btn-top">
               <a href="#">회사소개</a>
               <a href="#">생산제품</a>
@@ -276,7 +302,9 @@
           <div class="footer__contact">
             <h4>고객센터</h4>
             <h2>063-834-7322</h2>
-            <button class="footer__contact-btn">CONTACT</button>
+            <a href="contact.html">
+              <button class="footer__contact-btn">CONTACT</button>
+            </a>
           </div>
         </div>
       </div>
@@ -290,8 +318,9 @@
             <a href="#">이용약관</a>
           </div>
           <div class="fnb__copyright">
-            COPYRIGHT (C) <a href="#">DOWON GREEN INDUSTRY Co.,Ltd</a> ALL
-            RIGHTS RESERVED
+            COPYRIGHT (C)
+            <a href="index.html">DOWON GREEN INDUSTRY Co.,Ltd</a> ALL RIGHTS
+            RESERVED
           </div>
         </div>
       </div>
