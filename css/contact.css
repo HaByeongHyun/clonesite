@@ -1,6 +1,6 @@
 @charset "utf-8";
-@import 'reset.css';
 @import 'main.css';
+@import '../assets/reset.css';
 
 /* Contact */
 .contact__container {
