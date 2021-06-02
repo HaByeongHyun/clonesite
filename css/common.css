@@ -154,7 +154,7 @@ button {
 }
 
 .testimonials__slide-overlay {
-  background: url('/images/bgImg (5).jpg') center/cover no-repeat;
+  background: url('../images/bgImg (5).jpg') center/cover no-repeat;
 }
 
 .testimonials__slide-container {
