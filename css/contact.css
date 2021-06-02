@@ -26,10 +26,14 @@
 
 .contact__banner-title {
   margin-bottom: 12px;
+  font-size: 36px;
+  text-shadow: 2px 2px 2px rgb(0 0 0 / 30%);
+  font-weight: var(--weight-bold);
 }
 
-.contact__banner h1 {
-  font-size: 36px;
+.contact__banner-sub-title {
+  font-size: 18px;
+  text-shadow: 2px 2px 2px rgb(0 0 0 / 30%);
 }
 
 .contact__form-container {
