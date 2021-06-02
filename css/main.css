@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import '../assets/reset.css';
+@import 'common.css';
 
 /* Main Slide */
 .slide__container {
