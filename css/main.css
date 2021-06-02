@@ -276,13 +276,13 @@
 .business__areas-construction {
   display: flex;
   height: 195px;
-  background: url('/images/bgImg (2).jpg') center/cover no-repeat;
+  background: url('../images/bgImg (2).jpg') center/cover no-repeat;
 }
 
 .business__areas-right {
   width: 570px;
   height: 408px;
-  background: url('/images/bgImg (3).jpg') center/cover no-repeat;
+  background: url('../images/bgImg (3).jpg') center/cover no-repeat;
 }
 
 .business__areas-customer {
@@ -339,7 +339,7 @@
 }
 
 .technology {
-  background: url('/images/bgImg (4).jpg') center/cover no-repeat;
+  background: url('../images/bgImg (4).jpg') center/cover no-repeat;
   height: 550px;
 }
 
